@@ -1,0 +1,35 @@
+         -----------        ------------            --
+         -         -        -                      -  -
+	 -         -        -                     -    -
+         -----------        ------------         --------
+         -      -                      -        -        -
+   	 -       -                     -       -          -
+         -        -         ------------      -            -
+--------------------------------------------------------------------------
+Alice enc(x) ---------------> ciphertext ------------------> Bob dec(y)
+--------------------------------------------------------------------------
+
+Hello guys. This is a step-by-step method in python on how a plaintext message
+gets encrypted using RSA, sent to it's destination and then decrypted
+to read. RSA is used in our daily lives and it happens in a blink of 
+an eye. Just a simple text like 'k' goes through this entire grueling
+process to be safely received by the receiver. 
+A few things to go over before we get started.
+
+First: The Encryption algorithm is x^e mod n and the Decryption algorithm
+	is y^d mod n. x is the plaintext and y is the ciphertext. The other
+	variables will be explained later.
+
+Next:  In my example, we are using relatively small numbers just for
+	readability, in reality, RSA is at least 1024 bits which can be
+	alot to see and get confusing.
+
+Third: This process involves Extended Euclidean Algorithm, gcd, modulus,
+	Square and Multiply method. If you are not familiar with any of 
+	these terms, try reading them up before continuing.
+ 
+Finally: RSA is an asymmetric cipher, which means there is a private key
+	 and a public key needed in order for the entire encrpytion/decryption
+	 process to work. Also known as PKI(public key infastructure)
+
+Great!! Now we are ready. Press 'y' to continue. 
